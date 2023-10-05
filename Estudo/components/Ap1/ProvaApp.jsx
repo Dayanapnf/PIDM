@@ -14,6 +14,9 @@ const ProvaApp = () => {
         <NativeStack.Group>
           <NativeStack.Screen name="Quest01" component={Questao01App} />
         </NativeStack.Group>
+        <NativeStack.Group>
+          <NativeStack.Screen name="Quest02" component={Questao02App} />
+        </NativeStack.Group>
       </NativeStack.Navigator>
     </NavigationContainer>
   );

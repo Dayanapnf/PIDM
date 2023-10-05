@@ -14,6 +14,7 @@ import MyNetworking from "./components/14Networking/14MyNetworking";
 import MainScreen from "./components/15Navigation/15NavStack/MainScreen";
 import PokemonApp from "./components/16Pokemon/PokemonApp";
 import Questao01App from "./components/Ap1/Questao01App";
+import ProvaApp from "./components/Ap1/ProvaApp";
 
 export default function App() {
   return (
@@ -38,7 +39,7 @@ export default function App() {
 
    //<PokemonApp/>
 
-   <Questao01App/>
+   <ProvaApp/>
    
   );
 }
