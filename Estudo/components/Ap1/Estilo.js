@@ -10,20 +10,20 @@ const estilos = StyleSheet.create({
     },
     header:{
         fontWeight: "bold",
-        fontSize:25,
-        color: "gray",
+        fontSize:15,
+        color: "white",
     },
     icon:{
         fontWeight: "bold",
-        fontSize:25,
-        color: "gray",
+        fontSize:15,
+        color: "white",
         padding: 10,
 
     },
     dados:{
         fontWeight: "bold",
-        fontSize:25,
-        color: "gray",
+        fontSize:15,
+        color: "white",
         padding: 10,
 
     }
