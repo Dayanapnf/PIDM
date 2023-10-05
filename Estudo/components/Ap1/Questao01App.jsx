@@ -4,6 +4,7 @@ import estilos from "./Estilo";
 import Questao02App from "./Questao02App";
 
 const Questao01App = ({ navigation }) => {
+  
   const [modalVisible, setModalVisible] = useState(false);
 
   return (
