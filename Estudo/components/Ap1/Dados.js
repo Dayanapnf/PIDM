@@ -1,4 +1,3 @@
-
 const dadosCompra = [
   {
     title: "Terça",
@@ -17,7 +16,7 @@ const dadosCompra = [
         horario: "100:00",
         valor: "R$500.00",
       },
-    
+    ],
   },
   {
     title: "Terça",
@@ -64,4 +63,4 @@ const dadosCompra = [
   },
 ];
 
-export default dadosCompra
+export default dadosCompra;

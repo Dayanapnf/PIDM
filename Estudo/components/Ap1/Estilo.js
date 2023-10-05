@@ -6,13 +6,28 @@ const estilos = StyleSheet.create({
         flex:1,
         justifyContent:"center",
         alignItems: "center",
-        color: "black",
+        backgroundColor: "black",
     },
     header:{
         fontWeight: "bold",
         fontSize:25,
-        color: "brown",
+        color: "gray",
+    },
+    icon:{
+        fontWeight: "bold",
+        fontSize:25,
+        color: "gray",
+        padding: 10,
+
+    },
+    dados:{
+        fontWeight: "bold",
+        fontSize:25,
+        color: "gray",
+        padding: 10,
+
     }
+
 })
 
 export default estilos
