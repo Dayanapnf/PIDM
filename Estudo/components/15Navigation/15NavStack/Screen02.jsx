@@ -1,13 +1,16 @@
-import {View, Text} from "react-native"
+import { View, Text, Button } from "react-native";
+import estilos from "./MyStyle";
 
-const Screen01 = () => {
-    return(
-        <View>
-            <Text>
+const Screen02 = ({ navigation, route }) => {
+  const { name, grade } = route.params;
+  return (
+    <View style={estilos.container}>
+      <Text style={estilos.header}>Screen 02</Text>
+      <Text style={estilos.header}>{name}</Text>
+      <Text style={estilos.header}>{grade}</Text>
+      <Button title="Tela 03" onPress={() => navigation.navigate("Screen03")} />
+    </View>
+  );
+};
 
-            </Text>
-        </View>
-    )
-}
-
-export default Screen01
+export default Screen02;

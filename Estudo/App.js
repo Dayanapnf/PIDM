@@ -11,6 +11,8 @@ import MySectionList from "./components/12MySectionList";
 import MyFlexBox1 from "./components/13Flexbox/13FlexBox1";
 import MyFlexBox2 from "./components/13Flexbox/13FlexBox2";
 import MyNetworking from "./components/14Networking/14MyNetworking";
+import MainScreen from "./components/15Navigation/15NavStack/MainScreen";
+import PokemonApp from "./components/16Pokemon/PokemonApp";
 
 export default function App() {
   return (
@@ -29,7 +31,11 @@ export default function App() {
 
    // <MyFlexBox1/>
    // <MyFlexBox2/>
-   <MyNetworking/>
+   //<MyNetworking/>
+
+   //<MainScreen/>
+
+   <PokemonApp/>
    
   );
 }
