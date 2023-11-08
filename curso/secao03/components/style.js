@@ -4,13 +4,21 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     container: {
         flex:1,
-        backgroundColor: "#fff"
+        backgroundColor: "#fff",
+        margin:50,
     },
     txt:{
        fontSize: 15,
        fontWeight: 'bold',
        color: "#fff"
 
+    },
+    input:{
+        borderWidth: 1, 
+        borderColor: '#ccc', 
+        borderRadius: 5, 
+        padding: 10, 
+        marginBottom: 10, 
     },
     feedArea: {
         margin:5,

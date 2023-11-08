@@ -11,7 +11,6 @@ const FlatListTeste = () => {
       keyExtractor={(item) => item.id.toString()}
       renderItem={({item}) => (
         <View style={styles.feedArea}>
-            <Text style={styles.txt}>ID: {item.id}</Text>
             <Text style={styles.txt}>NOME: {item.name}</Text>
             <Text style={styles.txt}>E-MAIL: {item.email}</Text>
         </View>
