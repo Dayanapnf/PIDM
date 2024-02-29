@@ -15,6 +15,7 @@ import MainScreen from "./components/15Navigation/15NavStack/MainScreen";
 import PokemonApp from "./components/16Pokemon/PokemonApp";
 import Questao01App from "./components/Ap1/Questao01App";
 import ProvaApp from "./components/Ap1/ProvaApp";
+import Questao01_ap2 from "./components/Questao01_ap2";
 
 export default function App() {
   return (
@@ -39,7 +40,7 @@ export default function App() {
 
    //<PokemonApp/>
 
-   <ProvaApp/>
+   <Questao01_ap2/>
    
   );
 }

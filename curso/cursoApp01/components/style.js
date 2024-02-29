@@ -1,11 +1,12 @@
 import { StyleSheet } from "react-native";
 
 
-const biscoitoDaSorteStyle = StyleSheet.create({
+const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: "center",
-        justifyContent: "center",
+        justifyContent: "center"
+        ,
 
     },
     imagem: {
@@ -23,7 +24,8 @@ const biscoitoDaSorteStyle = StyleSheet.create({
         width: 300,
         height: 100,
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        flexDirection: 'row'
     },
     btn:{
         width: 250,
@@ -53,4 +55,4 @@ const biscoitoDaSorteStyle = StyleSheet.create({
     },
 });
 
-export default biscoitoDaSorteStyle;
+export default styles;
